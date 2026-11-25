@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://norinashorter.com/sitemap.xml

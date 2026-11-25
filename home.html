@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Norina Shorter, home</title>
+<meta name="description" content="Family Constellations sessions, coaching and workshops with Norina Shorter in Forest Row and online. Uncover the hidden patterns holding you back.">
+<link rel="icon" href="images/norina.jpg">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&amp;family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#0A0A09}
+a:hover{text-decoration-thickness:2px}
+a:focus-visible,summary:focus-visible{outline:2px solid #0A0A09;outline-offset:3px}
+.dk a:focus-visible{outline-color:#F3F2EE}
+summary{list-style:none;cursor:pointer}
+summary::-webkit-details-marker{display:none}
+details[open] .plus{transform:rotate(45deg)}
+.plus{flex:none;font-size:28px;line-height:1;font-weight:300;transition:transform .2s}
+.h2{margin:0;font-family:'Jost',system-ui,sans-serif;font-weight:300;font-size:clamp(30px,4vw,46px);line-height:1.15;letter-spacing:-.005em}
+.h3{margin:0 0 8px;font-family:'Jost',system-ui,sans-serif;font-weight:400;font-size:21px;line-height:1.25}
+.lab{margin:0 0 20px;font-size:13px;letter-spacing:.2em;text-transform:uppercase;font-weight:500}
+.card{border:1px solid #0A0A09;background:#FFFFFF}
+.btn-o{display:inline-flex;align-items:center;justify-content:center;min-height:48px;border:1px solid #0A0A09;color:#0A0A09;text-decoration:none;font-weight:500;font-size:15px;letter-spacing:.04em}
+.btn-o:hover{background:#0A0A09;color:#F3F2EE}
+.sum{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:44px;padding:22px 0;font-family:'Jost',system-ui,sans-serif;font-size:21px;font-weight:400;line-height:1.3}
+.it{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500}
+nav a{text-decoration:none}
+.dd{position:relative;display:inline-block}
+.dd-menu{display:none;position:absolute;left:-14px;top:100%;min-width:260px;padding-top:6px;z-index:20}
+.dd-menu div{background:#1A1411;border:1px solid #3A3A38;padding:8px 0}
+.dd:hover .dd-menu,.dd:focus-within .dd-menu{display:block}
+.dd-menu a{display:block;padding:12px 20px;white-space:nowrap;color:#F3F2EE}
+.dd-menu a:hover{background:#2A201A}
+@media(max-width:960px){.hero-img{order:-1}}
+@media(max-width:720px){
+nav[aria-label=Main]{width:100%;gap:0 20px !important}
+.hdr-cta{width:100%;box-sizing:border-box;margin:10px 0 0 !important;min-height:46px !important}
+}
+
+.tr{position:absolute;opacity:0;width:1px;height:1px}
+.tslides{display:grid}
+.ts{grid-area:1/1;display:flex;flex-direction:column;justify-content:space-between;gap:32px;visibility:hidden;opacity:0;transition:opacity .35s}
+.tarr{display:flex;align-items:center;justify-content:center;width:48px;height:48px;border:1px solid #F3F2EE;border-radius:50%;color:#F3F2EE;font-size:28px;line-height:1;cursor:pointer;user-select:none;transition:background .2s,border-color .2s}
+.tarr:hover{background:#9C5A3C;border-color:#9C5A3C}
+.tq{flex:1;display:flex;flex-direction:column;justify-content:center}
+.tbar{display:flex;justify-content:center;align-items:center;gap:28px}
+.tcount{min-width:64px;text-align:center;font-size:15px;letter-spacing:.14em;color:#D9D8D2}
+.tq p{margin:0 0 16px}
+.tq p:last-child{margin:0}
+.tdots{display:flex;justify-content:center;gap:12px;margin-top:36px}
+.tdots label{width:12px;height:12px;border-radius:50%;border:1px solid #F3F2EE;cursor:pointer}
+#t1:checked ~ .tslides .s1{visibility:visible;opacity:1}
+#t1:checked ~ .tdots label[for=t1]{background:#9C5A3C;border-color:#9C5A3C}
+#t1:focus-visible ~ .tdots label[for=t1]{outline:2px solid #F3F2EE;outline-offset:3px}
+#t2:checked ~ .tslides .s2{visibility:visible;opacity:1}
+#t2:checked ~ .tdots label[for=t2]{background:#9C5A3C;border-color:#9C5A3C}
+#t2:focus-visible ~ .tdots label[for=t2]{outline:2px solid #F3F2EE;outline-offset:3px}
+#t3:checked ~ .tslides .s3{visibility:visible;opacity:1}
+#t3:checked ~ .tdots label[for=t3]{background:#9C5A3C;border-color:#9C5A3C}
+#t3:focus-visible ~ .tdots label[for=t3]{outline:2px solid #F3F2EE;outline-offset:3px}
+#t4:checked ~ .tslides .s4{visibility:visible;opacity:1}
+#t4:checked ~ .tdots label[for=t4]{background:#9C5A3C;border-color:#9C5A3C}
+#t4:focus-visible ~ .tdots label[for=t4]{outline:2px solid #F3F2EE;outline-offset:3px}
+#t5:checked ~ .tslides .s5{visibility:visible;opacity:1}
+#t5:checked ~ .tdots label[for=t5]{background:#9C5A3C;border-color:#9C5A3C}
+#t5:focus-visible ~ .tdots label[for=t5]{outline:2px solid #F3F2EE;outline-offset:3px}
+#t6:checked ~ .tslides .s6{visibility:visible;opacity:1}
+#t6:checked ~ .tdots label[for=t6]{background:#9C5A3C;border-color:#9C5A3C}
+#t6:focus-visible ~ .tdots label[for=t6]{outline:2px solid #F3F2EE;outline-offset:3px}
+
+</style>
+
+</head>
+<body>
+
+
+<div id="top" style="font-family:'Jost',system-ui,sans-serif;color:#0A0A09;background:#F5EFE7;font-size:17px;line-height:1.65">
+<div class="dk" style="background:#100D0B;color:#F3F2EE">
+<header style="padding:20px clamp(20px,5vw,64px)">
+<div style="max-width:1160px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px 40px">
+<a href="home.html" style="text-decoration:none;color:#F3F2EE;padding:6px 0;font-size:16px;font-weight:400;letter-spacing:.28em;text-transform:uppercase">Norina Shorter</a>
+<nav aria-label="Main" style="display:flex;flex-wrap:wrap;align-items:center;gap:0 28px;font-size:15px;letter-spacing:.04em">
+<a href="sessions.html" style="display:inline-block;padding:12px 2px;color:#F3F2EE">Sessions</a>
+<span class="dd"><a href="about.html" aria-haspopup="true" style="display:inline-block;padding:12px 2px;color:#F3F2EE">About</a><span class="dd-menu"><div><a href="family-constellations.html">About Family Constellations</a><a href="about.html">About Norina Shorter</a></div></span></span>
+<a href="questions.html" style="display:inline-block;padding:12px 2px;color:#F3F2EE">Questions</a>
+<a href="events.html" style="display:inline-block;padding:12px 2px;color:#F3F2EE">Events</a>
+<a class="hdr-cta" href="https://cal.com/norina-shorter-qgo0rs" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 18px;margin-left:6px;background-color:#9C5A3C;color:#F3F2EE;font-weight:500">Book a FREE call</a>
+</nav>
+</div>
+</header>
+<section style="padding:clamp(24px,5vw,56px) clamp(20px,5vw,64px) clamp(56px,8vw,96px)">
+<div style="max-width:1160px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:48px 72px">
+<div style="flex:1 1 460px;min-width:0">
+<p class="lab" style="color:#B9B8B2">Family Constellations · one to one and in groups</p>
+<h1 style="margin:0 0 28px;font-family:'Jost',system-ui,sans-serif;font-weight:300;font-size:clamp(40px,6vw,70px);line-height:1.06;letter-spacing:-.015em">Uncover the<b> <span class="it" style="font-size: 1.1em; letter-spacing: 0px; font-style: normal">hidden patterns</span></b> holding you back</h1>
+<p style="margin:0 0 40px;max-width:540px;font-size:19px;color:#D9D8D2">Family Constellations sessions and coaching with Norina Shorter for career, relationships, health, and the patterns passed down through generations.</p>
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 28px">
+<a href="https://cal.com/norina-shorter-qgo0rs" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 0 34px; color: #f3f2ee; text-decoration: none; font-weight: 500; font-size: 16px; letter-spacing: .04em; background-color: #9C5A3C">Book a FREE 15min discovery call</a>
+
+</div>
+</div>
+<figure class="hero-img" style="flex:0 1 380px;width:100%;max-width:380px;margin:0 auto">
+<img src="images/hero.webp" alt="Two white-line geometric constellations on black: a circle of connected points around a heptagon, above an eight-pointed star in a circle" style="display:block;width:100%;height:auto;background:#100D0B">
+
+</figure>
+</div>
+</section>
+</div>
+<section style="padding: clamp(56px,8vw,104px) clamp(20px,5vw,64px); background-color: #34503E">
+<div style="max-width:1160px;margin:0 auto">
+<div style="display:flex;flex-wrap:wrap;gap:28px 72px;margin-bottom:56px">
+<h2 class="h2" style="flex: 1 1 380px; color: #f3f2ee">The issue in front of us often has older roots</h2>
+<div style="flex:1 1 420px">
+<p style="margin: 0 0 16px; color: #f3f2ee">Sometimes a stuck career, a repeating relationship pattern, or an illness with no clear cause has roots that go back further than we realise.</p>
+<p style="margin: 0 0 20px"><a href="family-constellations.html" style="color:#f3f2ee;text-underline-offset:5px">Read about Family Constellations</a></p>
+
+<p style="margin: 0; padding-top: 16px; border-top: 1px solid #D9BCA8; color: #f3f2ee"><span class="it" style="font-size:22px;line-height:1.4">Beneath what looks like chaos there is often an order, waiting to be seen.</span></p>
+</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; background-color: transparent">
+<div class="card" style="flex: 1 1 240px; padding: 28px; box-sizing: border-box; background-color: #f3f2ee"><h3 class="h3">Patterns that keep repeating</h3><p style="margin:0;font-size:16px;color:#55554F">You feel stuck in something for reasons you can’t explain, and want new insights that can finally lead to real change.</p></div><div class="card" style="flex: 1 1 240px; padding: 28px; box-sizing: border-box; background-color: #f3f2ee"><h3 class="h3">Family and relationships</h3><p style="margin:0;font-size:16px;color:#55554F">You’re navigating complex dynamics with family, a partner, or colleagues, and need support understanding the hidden forces at play.</p></div><div class="card" style="flex: 1 1 240px; padding: 28px; box-sizing: border-box; background-color: #f3f2ee"><h3 class="h3">Health that hasn’t responded</h3><p style="margin:0;font-size:16px;color:#55554F">You are looking for another lens on a condition that hasn’t shifted with other approaches.</p></div><div class="card" style="flex: 1 1 240px; padding: 28px; box-sizing: border-box; background-color: #f3f2ee"><h3 class="h3">Work and purpose</h3><p style="margin:0;font-size:16px;color:#55554F">You want more clarity in your career, creativity, or direction.</p></div>
+</div>
+</div>
+</section>
+<section style="padding: clamp(56px,8vw,104px) clamp(20px,5vw,64px); background-color: #f3f2ee">
+<div style="max-width:1160px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:40px 72px">
+<div style="flex:0 1 260px;width:100%;max-width:260px;margin:0 auto;position:relative">
+<div aria-hidden="true" style="position:absolute;inset:-14px;border:1px solid #0A0A09;border-radius:50%"></div>
+<img src="images/norina.jpg" alt="Norina Shorter, smiling" style="display:block;position:relative;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:center 30%;background:#9C5A3C;border-radius:50%">
+</div>
+<div style="flex:1 1 420px;min-width:0">
+<p class="lab" style="margin:0 0 16px;color:#9C5A3C">Meet Norina</p>
+
+<p style="margin:0 0 20px;max-width:620px;color:#2B2B29">I’m a Family Constellations facilitator in Forest Row, working online and in person. I have spent nearly two decades working with people in need, and have held workshops and one to one sessions since 2023.</p>
+<a href="about.html" style="color:#0A0A09;text-underline-offset:5px">Read my story</a>
+</div>
+</div>
+</section>
+<div class="dk" style="background:#100D0B;color:#F3F2EE;position:relative;overflow:hidden">
+
+<section style="position:relative;padding:clamp(64px,9vw,120px) clamp(20px,5vw,64px)">
+<div style="max-width:1040px;margin:0 auto;position:relative" role="region" aria-roledescription="carousel" aria-label="Testimonials">
+<input class="tr" type="radio" name="tst" id="t1" aria-label="Testimonial 1 of 6" checked=""><input class="tr" type="radio" name="tst" id="t2" aria-label="Testimonial 2 of 6"><input class="tr" type="radio" name="tst" id="t3" aria-label="Testimonial 3 of 6"><input class="tr" type="radio" name="tst" id="t4" aria-label="Testimonial 4 of 6"><input class="tr" type="radio" name="tst" id="t5" aria-label="Testimonial 5 of 6"><input class="tr" type="radio" name="tst" id="t6" aria-label="Testimonial 6 of 6">
+<div class="tslides"><div class="ts s1"><blockquote class="tq" style="margin:0 auto;max-width:820px;font-family:'Jost',system-ui,sans-serif;font-weight:300;font-size:clamp(18px,2.2vw,25px);line-height:1.6;text-align:center"><p>“My session with Norina was nothing short of magical. In it, we were able to access insights and healing for an issue I have been working through for decades, one that I had previously not been able to find adequate resolution for. My orientation to life and my way of being has shifted very deeply, and I am extremely grateful to her for the work she did with me. It was life changing.”</p></blockquote><div class="tbar"><label for="t6" class="tarr" aria-label="Previous testimonial">‹</label><span class="tcount">1 / 6</span><label for="t2" class="tarr" aria-label="Next testimonial">›</label></div></div><div class="ts s2"><blockquote class="tq" style="margin:0 auto;max-width:820px;font-family:'Jost',system-ui,sans-serif;font-weight:300;font-size:clamp(18px,2.2vw,25px);line-height:1.6;text-align:center"><p>“I want to thank Norina with all my heart for the time she spent with me. Her sensitivity, empathy and profound insight moved me, and I’m so grateful.</p><p>It has brought a deep inner awareness of my lineage that I did not previously have access to. This moment together into the past has opened a new consciousness for the future, and it continues to grow in a beautiful way.”</p></blockquote><div class="tbar"><label for="t1" class="tarr" aria-label="Previous testimonial">‹</label><span class="tcount">2 / 6</span><label for="t3" class="tarr" aria-label="Next testimonial">›</label></div></div><div class="ts s3"><blockquote class="tq" style="margin:0 auto;max-width:820px;font-family:'Jost',system-ui,sans-serif;font-weight:300;font-size:clamp(18px,2.2vw,25px);line-height:1.6;text-align:center"><p>“Norina led me through two illuminating and challenging personal workshops related to parental relationships. They were an essential part of grieving, assessing the loss and (re-)locating my feelings for these powerful loved ones who were no longer there, yet surprisingly light and playful experiences. The session to do with my father concluded with a walk in the park, opposite. A large tree fell down with a great crack as we left the house.</p><p>Nature endorses Norina’s work.”</p></blockquote><div class="tbar"><label for="t2" class="tarr" aria-label="Previous testimonial">‹</label><span class="tcount">3 / 6</span><label for="t4" class="tarr" aria-label="Next testimonial">›</label></div></div><div class="ts s4"><blockquote class="tq" style="margin:0 auto;max-width:820px;font-family:'Jost',system-ui,sans-serif;font-weight:300;font-size:clamp(18px,2.2vw,25px);line-height:1.6;text-align:center"><p>“My session with Norina was incredible. I was very fragmented and in quite a dark place. She enabled me to connect deep inside, with my beautiful soul; something I never thought I could do again. I was broken and Norina gently helped me put myself back together again.</p><p>I now have such hope in my heart!”</p></blockquote><div class="tbar"><label for="t3" class="tarr" aria-label="Previous testimonial">‹</label><span class="tcount">4 / 6</span><label for="t5" class="tarr" aria-label="Next testimonial">›</label></div></div><div class="ts s5"><blockquote class="tq" style="margin:0 auto;max-width:820px;font-family:'Jost',system-ui,sans-serif;font-weight:300;font-size:clamp(18px,2.2vw,25px);line-height:1.6;text-align:center"><p>“My session with Norina was deeply healing. Norina’s presence and capacity to hold the space for me enabled me to feel safe in my trauma and to be able to transform it.</p><p>I felt a deep sense of intimacy and safety in our session. Norina’s guidance was gentle yet constant throughout. The use of objects also provided me with a grounded and physical healing in my body and mind.</p><p>I highly recommend Norina and her work.”</p></blockquote><div class="tbar"><label for="t4" class="tarr" aria-label="Previous testimonial">‹</label><span class="tcount">5 / 6</span><label for="t6" class="tarr" aria-label="Next testimonial">›</label></div></div><div class="ts s6"><blockquote class="tq" style="margin:0 auto;max-width:820px;font-family:'Jost',system-ui,sans-serif;font-weight:300;font-size:clamp(18px,2.2vw,25px);line-height:1.6;text-align:center"><p>“I am deeply thankful to Norina, to the Universe and to our ancestors for leading me to her. I had been asking for a Family Constellation facilitator I’d resonate with. I had also been longing to reconnect with authentic indigenous wisdom. When I found Norina, I felt straight away the depth and strength of her ancestry all over her! I just knew she was the facilitator I’d been asking for. And I was right. She is deeply and powerfully intuitive. Even when I couldn’t explain things clearly, she got precisely what I meant and beyond. She went where I never thought we’d go and I could then release deep entanglements only now I see I had. I felt our ancestors with us the whole time.</p><p>It was too special to translate into words.”</p></blockquote><div class="tbar"><label for="t5" class="tarr" aria-label="Previous testimonial">‹</label><span class="tcount">6 / 6</span><label for="t1" class="tarr" aria-label="Next testimonial">›</label></div></div></div>
+</div>
+</section>
+</div>
+
+<section style="padding:clamp(56px,8vw,96px) clamp(20px,5vw,64px);background-color:#f3f2ee">
+<div style="max-width:680px;margin:0 auto;text-align:center">
+<h2 class="h2" style="font-size:clamp(28px,4vw,40px);margin-bottom:12px">Join my newsletter</h2>
+<p style="margin:0 0 28px;color:#55554F">Occasional notes on Family Constellations, and news of upcoming workshops and events. Unsubscribe at any time.</p>
+<iframe src="https://norina.substack.com/embed?transparent=1" title="Subscribe to the newsletter" width="480" height="150" style="border: 0; background: transparent; max-width:100%" frameborder="0" scrolling="no"></iframe>
+</div>
+</section>
+<div class="dk" style="background:#100D0B;color:#F3F2EE">
+<footer style="padding: 40px clamp(20px,5vw,64px) 36px; border-top: 1px solid #3A3A38">
+<div style="max-width:1160px;margin:0 auto">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:28px 48px;margin-bottom:28px">
+<div>
+<div style="font-size:16px;letter-spacing:.28em;text-transform:uppercase">Norina Shorter</div>
+<p style="margin:12px 0 0;font-size:15px;color:#B9B8B2">Online, Forest Row, and London UK</p>
+<p style="margin:8px 0 0;font-size:15px"><a href="mailto:norina@norinashorter.com" style="color:#F3F2EE">norina@norinashorter.com</a></p>
+<p style="margin:8px 0 0;font-size:15px"><a href="privacy.html" style="color:#B9B8B2">Privacy policy</a></p>
+</div>
+</div>
+<p style="margin:0 0 16px;font-size:14px;color:#B9B8B2;max-width:640px">Family Constellations is not a substitute for medical or psychological care.</p>
+<div style="padding-top:22px;border-top:1px solid #3A3A38;font-size:14px;color:#B9B8B2">© 2026 Norina Shorter | Image credit: "Order In Chaos" from www.sacredartofgeometry.com</div>
+</div>
+</footer>
+</div>
+
+</div>
+
+</body>
+</html>
